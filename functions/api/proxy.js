@@ -7,7 +7,7 @@
  */
 import { handleProxyRequest, onRequestOptions } from './_shared/proxy-core.js';
 const ALLOWED_HOST_SUFFIXES = [
-  'quark.cn',
+  'pan.quark.cn',
   
 ];
 export { onRequestOptions };
