@@ -6,7 +6,10 @@
  * TODO(P3)：等 backend hop 同步改名后，这里再考虑下线（Tzz D3：老路径 1.4 移除）。
  */
 import { handleProxyRequest, onRequestOptions } from './_shared/proxy-core.js';
-
+const ALLOWED_HOST_SUFFIXES = [
+  'quark.cn',
+  
+];
 export { onRequestOptions };
 
 export function onRequestPost(context) {
